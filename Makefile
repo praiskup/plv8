@@ -46,8 +46,6 @@ endif
 SHLIB_LINK += -lv8
 ifdef V8_OUTDIR
 SHLIB_LINK += -L$(V8_OUTDIR)
-else
-SHLIB_LINK += -lv8_libplatform
 endif
 
 
